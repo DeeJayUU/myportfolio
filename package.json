@@ -6,7 +6,7 @@
   "homepage": "https://deejayuu.github.io/myportfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d portfolio/dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Daniel Ball-Woodvine",
   "license": "MIT",
