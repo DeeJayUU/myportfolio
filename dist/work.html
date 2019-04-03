@@ -11,10 +11,10 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <title>Welcome to my Portfolio</title>
+    <title>My projects</title>
   </head>
 
-  <body id="bg-img">
+  <body>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -27,13 +27,13 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item current">
+          <li class="nav-item">
             <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a href="about.html" class="nav-link">About Me</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item current">
             <a href="work.html" class="nav-link">My Work</a>
           </li>
           <li class="nav-item">
@@ -43,25 +43,43 @@
       </nav>
     </header>
 
-    <main id="home">
-      <h1 class="lg-heading">
-        Daniel <span class="text-secondary">Ball-Woodvine</span>
-      </h1>
+    <main id="work">
+      <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
+
       <h2 class="sm-heading">
-        Computer Security Graduate
+        One or two things I've been working on...
       </h2>
-      <div class="icons">
-        <a href="https://twitter.com/DeeJayBuh">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="https://www.facebook.com/dan.ball3">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/daniel-woodvine-654668143/">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
+
+      <div class="projects">
+        <div class="item">
+          <a href="https://github.com/DeeJayUU/FirstWebsite">
+            <img src="img/projects/project1.JPG" alt="Project1" />
+          </a>
+
+          <p class="btn-light">My First Website</p>
+          <a href="https://github.com/DeeJayUU/FirstWebsite" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/DeeJayUU/UniversityAssignmentSQL">
+            <img src="img/projects/project2.JPG" alt="Project2" />
+          </a>
+
+          <p class="btn-light">SQL Database</p>
+
+          <a
+            href="https://github.com/DeeJayUU/UniversityAssignmentSQL"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
       </div>
     </main>
+    <footer id="main-footer">
+      Copyright &copy; 2019
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
